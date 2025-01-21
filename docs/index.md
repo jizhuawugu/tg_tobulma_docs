@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "FreeLink双向机器人"
-  text: "一个适合所有人的 Telegram 双向机器人"
-  tagline: 深受用户喜爱的机器人
+  name: "ToBulma华人社区"
+  text: "一个重新定义'内群'的社区无所不能的Telegram社区"
+  tagline: 解决您的所有需求
   image:
     alt: 背景图
     src: /Background.png
@@ -15,7 +15,10 @@ hero:
       link: /zh/brief/bot_introduce.html
     - theme: alt
       text: 👉🏻 双向机器人
-      link: https://t.me/xzkb_bot
+      link: https://t.me/ToBulmaLivebot
+    - theme: alt
+      text: 🛒 自动售货机
+      link: https://t.me/ToBulmaETRCBot
 
 features:
   - title: 解决个人双向限制
