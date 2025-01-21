@@ -12,6 +12,8 @@ export default defineConfig({
     head: [
         ['meta', {name: 'author', content: 'tobulma'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
+        ['meta', {property: 'og:title', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
+        ['meta', {property: 'og:image', content: '/logo.png'}],
         ['link', {rel: 'icon', href: '/logo.png'}]
     ],
     locales: {
