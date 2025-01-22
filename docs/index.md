@@ -11,8 +11,8 @@ hero:
     src: /Background.png
   actions:
     - theme: brand
-      text: 📄 文档
-      link: /zh/brief/bot_introduce.html
+      text: 📄 布尔玛社区VIP
+      link: https://t.me/Bulma_list
     - theme: alt
       text: 👉🏻 双向机器人
       link: https://t.me/ToBulmaLivebot
@@ -21,27 +21,21 @@ hero:
       link: https://t.me/ToBulmaETRCBot
 
 features:
-  - title: 解决个人双向限制
-    details: 通过机器人实现无风控沟通，轻松解决个人双向限制。
-    icon: 🗣️
-  - title: 支持广播
-    details: 一键发送消息至所有用户，快速覆盖目标群体，适用于通知、推广等多种场景。
-    icon: 📢
-  - title: 支持锁定沟通模式
-    details: 提供多种沟通模式锁定选项，丝滑沟通体验，保障消息安全可靠。
-    icon: 🔒
-  - title: 支持付费聊天
-    details: 灵活设置付费聊天服务，为高端用户提供专属支持，助力商业变现。
-    icon: 💰
-  - title: 支持键盘按钮
-    details: 支持自定义底部键盘按钮与快捷命令，高效优化用户交互和管理体验。
-    icon: ⌨️
-  - title: 支持命令
-    details: 支持自定义快捷命令，高效优化用户交互和管理体验。
-    icon: 💾
-  - title: 支持自动回复
-    details: 自动化智能回复功能，无需人工实时在线，高效处理常见问题。
-    icon: 🤖
-  - title: 删除用户聊天记录
-    details: 一键清除用户聊天记录，保护隐私，防止敏感信息泄露，让用户更加安心。
-    icon: 🗑️
+  - title: 每月空降女友
+    details: 每月抽奖空降女友，费用社区出
+    icon: 👩🏻‍🦰
+  - title: 无门槛问价
+    details: 不再另外付费高价门槛
+    icon: 🚪
+  - title: 消费先行赔付
+    details: 在社区被骗，社区第一时间进行赔付，金额无上限
+    icon: 🏦
+  - title: 专属的客诉通道
+    details: 1对1解决你的任何有关社区的诉求，包括投诉等问题
+    icon: 📩
+  - title: 最优的1对1服务
+    details: 无论你在哪里，都可以解决你的需求
+    icon: 🎀
+  - title: 最完美的华人自定义社区
+    details: 知你所需，懂你所要，做你想做
+    icon: 🎁

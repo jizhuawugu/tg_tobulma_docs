@@ -24,7 +24,9 @@ export default defineConfig({
             description: 'Telegram 双向机器人 私聊机器人',
             themeConfig: {
                 nav: [
-                    {text: '文档', link: '/zh/brief/bot_introduce'},
+                    {text: '电报群组无法打开', link: 'https://t.me/XBulma/51'},
+                    {text: '电报中文语言包', link: 'https://t.me/XBulma/52'},
+                    {text: '双向机器人文档', link: '/zh/brief/bot_introduce'},
                 ],
                 sidebar: [
                     {
