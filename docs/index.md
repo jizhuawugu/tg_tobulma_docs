@@ -11,8 +11,11 @@ hero:
     src: /Background.png
   actions:
     - theme: brand
-      text: 📄 布尔玛社区VIP
+      text: 📄 布尔玛社区冲浪群
       link: https://t.me/Bulma_list
+    - theme: alt
+      text: 👑 布尔玛社区VIP
+      link: https://t.me/ToBulmaVIPBot
     - theme: alt
       text: 👉🏻 双向机器人
       link: https://t.me/ToBulmaLivebot
