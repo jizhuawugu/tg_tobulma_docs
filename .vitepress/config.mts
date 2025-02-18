@@ -10,23 +10,26 @@ export default defineConfig({
         lastmodDateOnly: false
     },
     head: [
+        // 通用信息
         ['meta', {name: 'author', content: 'tobulma'}],
         ['meta', {name: 'keywords', content: '双向机器人'}],
-        ['meta', {property: 'og:title', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
-        ['meta', {property: 'og:image', content: '/logo.png'}],
+
+        // 网站图标
         ['link', {rel: 'icon', href: '/logo.png'}],
+
         // Open Graph 信息
         ['meta', {property: 'og:title', content: 'ToBulma华人社区'}],
         ['meta', {property: 'og:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
-        ['meta', {property: 'og:image', content: '/logo.png'}],
+        ['meta', {property: 'og:image', content: 'https://www.freelinktg.top/logo.png'}],
         ['meta', {property: 'og:url', content: 'https://www.freelinktg.top/'}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:site_name', content: 'ToBulma'}],
-        // Twitter 信息（增强社交分享效果）
-        ['meta', { name: 'twitter:card', content: 'summary_large_image' }], // 使用大图片卡片样式
-        ['meta', { name: 'twitter:title', content: 'ToBulma华人社区' }],
-        ['meta', { name: 'twitter:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区' }],
-        ['meta', { name: 'twitter:image', content: '/logo.png' }],
+
+        // Twitter 信息
+        ['meta', {name: 'twitter:card', content: 'summary_large_image'}],
+        ['meta', {name: 'twitter:title', content: 'ToBulma华人社区'}],
+        ['meta', {name: 'twitter:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
+        ['meta', {name: 'twitter:image', content: '/logo.png'}],
     ],
     locales: {
         root: {
