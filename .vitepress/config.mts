@@ -185,37 +185,50 @@ export default defineConfig({
                         {
                             text: '入驻必看',
                             items: [
-                                {text: '💰 收款费率', link: '/zh/paid/order'},
-                                {text: '💳 收款方式', link: '/zh/paid/order'},
+                                // {text: '💰 收款费率', link: '/zh/paid/order'},
+                                {text: '💳 收款方式', link: '/zh/vending_machine/must_see/payment_method'},
                             ]
                         },
                         {
                             text: '商品',
                             items: [
-                                {text: '📦 付费群', link: '/zh/vending_machine/product/grop',
+                                {
+                                    text: '👥 付费群', link: '/zh/vending_machine/product/grop',
                                     items: [
                                         {
-                                            text: '📦 上架付费群', link: '/zh/vending_machine/product/listing_products'
+                                            text: '👥 上架付费群', link: '/zh/vending_machine/product/listing_products'
                                         },
                                         {
-                                            text: '📦 设置价格', link: '/zh/vending_machine/product/grop_set_price'
+                                            text: '👥 设置价格', link: '/zh/vending_machine/product/grop_set_price'
                                         },
                                         {
-                                            text: '📦 加入/群/频道(会员群)', link: '/zh/vending_machine/product/grop_join'
+                                            text: '👥 加入/群/频道(会员群)',
+                                            link: '/zh/vending_machine/product/grop_join'
                                         }
                                     ]
                                 },
-                                {text: '📦 付费素材', link: '/zh/vending_machine/product/file'},
+                                {
+                                    text: '🎬 付费素材',
+                                    link: '/zh/vending_machine/product/file',
+                                    items: [
+                                        {
+                                            text: '🎬 上架付费素材', link: '/zh/vending_machine/product/file_listing',
+                                        },
+                                        {
+                                            text: '🎬 素材管理', link: '/zh/vending_machine/product/file_manage',
+                                        }
+                                    ]
+                                },
                             ]
                         },
-                        {
-                            text: '功能',
-                            items: [
-                                {text: '📢 管理频道/群', link: '/zh/paid/order'},
-                                {text: '👏 欢迎词', link: '/zh/paid/order'},
-                                {text: '📡 广播', link: '/zh/paid/order'},
-                            ]
-                        },
+                        // {
+                        //     text: '功能',
+                        //     items: [
+                        //         {text: '📢 管理频道/群', link: '/zh/paid/order'},
+                        //         {text: '👏 欢迎词', link: '/zh/paid/order'},
+                        //         {text: '📡 广播', link: '/zh/paid/order'},
+                        //     ]
+                        // },
                     ]
                 }
             }
