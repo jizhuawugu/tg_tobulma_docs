@@ -20,8 +20,8 @@ export default defineConfig({
         // Open Graph 信息
         ['meta', {property: 'og:title', content: 'ToBulma华人社区'}],
         ['meta', {property: 'og:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
-        ['meta', {property: 'og:image', content: 'https://www.tobulma.com/logo.png'}],
-        ['meta', {property: 'og:url', content: 'https://www.tobulma.com/logo.png'}],
+        ['meta', {property: 'og:image', content: 'https://www.tobulma.com/logo_x.png'}],
+        ['meta', {property: 'og:url', content: 'https://www.tobulma.com/logo_x.png'}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:site_name', content: 'ToBulma'}],
 
@@ -29,7 +29,7 @@ export default defineConfig({
         ['meta', {name: 'twitter:card', content: 'summary_large_image'}],
         ['meta', {name: 'twitter:title', content: 'ToBulma华人社区'}],
         ['meta', {name: 'twitter:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
-        ['meta', {name: 'twitter:image', content: 'https://www.tobulma.com/logo.png'}],
+        ['meta', {name: 'twitter:image', content: 'https://www.tobulma.com/logo_x.png'}],
     ],
     locales: {
         root: {
