@@ -27,7 +27,7 @@ export default defineConfig({
 
         // Twitter 信息
         ['meta', {name: 'twitter:card', content: 'summary'}],
-        ['meta', {name: 'twitter:title', content: 'ToBulma华人社区'}],
+        ['meta', {name: 'twitter:title', content: 'ToBulma华人社区,我们一起重新定义“内群”'}],
         ['meta', {name: 'twitter:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
         ['meta', {name: 'twitter:image', content: 'https://www.tobulma.com/logo_x.png'}],
     ],
