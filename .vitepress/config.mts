@@ -18,8 +18,8 @@ export default defineConfig({
         ['link', {rel: 'icon', href: '/logo.png'}],
 
         // Open Graph 信息
-        ['meta', {property: 'og:title', content: 'ToBulma华人社区'}],
-        ['meta', {property: 'og:description', content: 'ToBulma华人社区一个重新定义内群的社区无所不能的Telegram社区'}],
+        ['meta', {property: 'og:title', content: 'ToBulma中文社区'}],
+        ['meta', {property: 'og:description', content: '我们一起重新定义“内群'}],
         ['meta', {property: 'og:image', content: 'https://www.tobulma.com/logo_x.png'}],
         ['meta', {property: 'og:url', content: 'https://www.tobulma.com/logo_x.png'}],
         ['meta', {property: 'og:type', content: 'website'}],
