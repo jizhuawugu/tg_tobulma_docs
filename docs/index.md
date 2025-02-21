@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: 🛒 自动售货机
       link: https://t.me/ToBulmaETRCBot
+    - theme: alt
+      text: ⚖️ DMCA服务
+      link: http://t.me/ToBulmaDMCAbot
 
 features:
   - title: 每月空降女友
